@@ -12,7 +12,8 @@ export default function MessageSend() {
     const templateId = process.env.REACT_APP_API_EMAIL_JS_templateId;
     const serviceId = process.env.REACT_APP_API_EMAIL_JS_serviceId;
     const publicKey = process.env.REACT_APP_API_EMAIL_JS_publicKey;
-
+    console.log(templateId, serviceId, publicKey);
+    console.log("hi");
     const [date, setDate] = useState(new Date());
     const [time, setTime] = useState(null)
     const [isSent, setIsSent] = useState("Send");
