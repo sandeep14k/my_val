@@ -40,6 +40,7 @@ export default function MessageSend() {
         event.preventDefault();
         setIsSent("Sent");
         setIsButtonDisabled(true);
+        navigate2('/endpage')
 
         // Emailing
 
