@@ -54,6 +54,7 @@ export default function MessageSend() {
             })
             .catch((error) => {
                 console.log(error);
+                navigate2('/endpage')
             })
 
         setDate(new Date());
